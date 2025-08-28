@@ -4,23 +4,22 @@ This project evaluates three deep learning architectures: U-Net, Attention U-Net
 
 ## Highlights
 
-### Dataset: [COVID-19 CT Scan Lesion Segmentation Dataset](https://www.kaggle.com/datasets/maedemaftouni/covid19-ct-scan-lesion-segmentation-dataset).
+### Dataset
+[COVID-19 CT Scan Lesion Segmentation Dataset](https://www.kaggle.com/datasets/maedemaftouni/covid19-ct-scan-lesion-segmentation-dataset).
  
+### Models
+-Traditional U-Net 
+-Attention U-Net with attention gates for small lesion focus 
+-Residual U-Net with skip and residual connections
 
-Models:
+### Pre-processing
+-Contrast enhancement with CLAHE and Gaussian smoothing 
+-Removal of empty masks & resizing (256×256, grayscale channels) 
+-Augmentation: Targeted flips and rotations, prioritizing small lesions 
+-Metrics: Dice Coefficient, Validation Accuracy, IOU
 
-Traditional U-Net 
+### Augmentation
+Targeted flips and rotations, prioritizing small lesions 
 
-Attention U-Net with attention gates for small lesion focus 
-
-Residual U-Net with skip and residual connections
-
-Pre-processing:
-
-Contrast enhancement with CLAHE and Gaussian smoothing 
-
-Removal of empty masks & resizing (256×256, grayscale channels) 
-
-Augmentation: Targeted flips and rotations, prioritizing small lesions 
-
-Metrics: Dice Coefficient, Validation Accuracy, IOU
+### Metrics
+Dice Coefficient, Validation Accuracy, IOU
