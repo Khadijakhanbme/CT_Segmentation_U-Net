@@ -8,3 +8,6 @@ matplotlib
 scikit-learn
 albumentations
 pandas
+cv2
+random
+shutil
