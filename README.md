@@ -39,7 +39,11 @@ This helped the models generalize better and reduced overfitting.
 ## 📊 Results (Summary)
 - **U-Net**: Strong baseline, struggled with small lesions  
 - **Attention U-Net**: Best performance, captured both large and small lesions  
-- **Residual U-Net**: Competitive results, but less consistent than Attention U-Net  
+- **Residual U-Net**: Competitive results, but less consistent than Attention U-Net
+
+<img width="827" height="202" alt="image" src="https://github.com/user-attachments/assets/9db1c7c6-3ce1-455f-bf50-2ce76caef5ae" />
+
+
 
 ---
 
@@ -68,13 +72,7 @@ This helped the models generalize better and reduced overfitting.
 
 ---
 
-## Significance & Future Work
-
-**Significance:**  
-- Supports development of **automated tools** for early and precise diagnosis of lung diseases like COVID-19.  
-- Can **reduce manual workload** for radiologists and improve clinical efficiency.  
-
-**Future Directions:**  
+## Future Work
 - Apply hybrid architectures and loss functions to improve **small lesion detection** and **boundary accuracy**.  
 - Extend the approach to **other medical imaging datasets** to generalize applicability.   
 
@@ -88,8 +86,11 @@ This helped the models generalize better and reduced overfitting.
 
 ---
 
-## 👩‍💻 Author
+## Author
 **Khadija Khan**  
-MSc Biomedical Engineering  
+MSc Biomedical Engineering
+
+📧 Email: [khadijakhanbme@gmail.com]  
+🔗 LinkedIn: [https://www.linkedin.com/in/khadija-khan-8514901a6/]
 
 
