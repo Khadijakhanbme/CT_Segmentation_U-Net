@@ -1,8 +1,12 @@
 tensorflow
+imantics
+kaggle
 keras
 numpy
 opencv-python
 matplotlib
 scikit-learn
 albumentations
+pandas
+matplotlib
 
