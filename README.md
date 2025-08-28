@@ -1,10 +1,8 @@
 # CT Lung Lesion Segmentation (COVID-19) with U-Net Variants  
 
+## Overview
 Automatic segmentation of lung lesions from CT scans is a critical step in understanding disease progression and assisting clinicians in treatment planning. This project evaluates three deep learning architectures: **U-Net, Attention U-Net, and Residual U-Net** for COVID-19 lung lesion segmentation using preprocessing and augmentation techniques.  
 
----
-
-## Highlights
 - **Dataset**: [COVID-19 CT Scan Lesion Segmentation Dataset](https://www.kaggle.com/datasets/maedemaftouni/covid19-ct-scan-lesion-segmentation-dataset)
   <img width="801" height="522" alt="image" src="https://github.com/user-attachments/assets/faf5e8e2-ee92-428f-9b6b-59e1c786c1d2" />
 
@@ -69,6 +67,35 @@ This helped the models generalize better and reduced overfitting.
 <img width="952" height="556" alt="image" src="https://github.com/user-attachments/assets/a79b4ceb-09d2-425f-9f35-3bccd9933596" />
 <img width="982" height="542" alt="image" src="https://github.com/user-attachments/assets/9816bb98-5937-45ca-8363-1c8a6a0c6817" />
 
+
+---
+## Installation & Usage
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Khadijakhanbme/CT_Segmentation_U-Net.git
+cd CT_Segmentation_U-Net/src
+
+```
+
+### 2. Create Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows  
+
+```
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+
+```
+
+### 4. Run the Model
+```bash
+python main_unet_models.py
+
+```
 
 ---
 
